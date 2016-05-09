@@ -1,0 +1,10 @@
+{% extends 'Index.html' %}
+
+{% block content %}
+<h1>Hello, this page contain many photo</h1>
+    <ul>
+    {% for img in imgs %}
+        <li> photo {{ img }} </li>
+    {% endfor%}
+    </ul>
+{% endblock %}

@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>{{ cnf.myTitle }}</title>
+  {{ publishCss() }}
+</head>
+<body>
+  {% block content %}
+    {{ pageName }}
+  {% endblock %}
+{{ publishJs() }}
+</body>
+</html>
